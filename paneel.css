@@ -1,0 +1,173 @@
+nav{
+    
+    margin: auto;
+    border: 0px solid red;
+    width: auto;
+    height: auto;
+    z-index: 2;
+}
+/*
+nav ul{
+  border: 2px solid black;
+    width: auto;
+    height: auto;
+      padding-bottom: 10px;
+     padding-top: -10px;
+}*/
+ul li{
+    
+    border: 0px solid green;
+    width: 150px;
+    margin-top: 20px;
+    
+    list-style: none;
+    position: relative;
+    left: 20%;
+     display: inline-block;
+    z-index: 2;
+}
+ul li a{
+    text-align: center;
+    border: 2px solid green;
+    border-bottom-color: red;
+   width: 150px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: blue;
+    color: black;
+    font-size: 20px;
+    z-index: 2;
+    
+}
+
+a:active{
+    color: red;
+    
+}
+ul li a:hover{
+    
+    border: 2px solid red;
+    border-bottom-color: black;
+    color: blue;
+    background-color: black;
+   
+    text-decoration: overline;
+    z-index: 2;
+}
+
+
+h1{
+    
+    color: blue;
+    border: 2px solid blue;
+    width: 300px;
+    text-align: center;
+    margin-left: 15px;
+    position: relative;
+    left: 30%;
+  
+    
+}
+
+#image{
+    
+    border: 2px solid blue;
+    width: 400px;
+    height: 450px;
+    margin-left: 15px;
+    
+    
+}
+#conteneur{
+    
+    border: 2px solid red;
+  
+   /* border-top: 2px solid black;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid black;*/
+    width: 1000px;
+    height: 583px;
+    position: relative;
+   bottom: 18px;
+   margin: auto;
+   background-color: whitesmoke;
+   overflow: hidden;
+   background-color: black;
+    z-index: 1;
+}
+
+.paneel{
+    
+
+   border: 0px solid black;
+  
+   
+    width: 1000px;
+    height: 600px;
+  background-color: black;
+    
+   
+   
+  /* background-color: black;*/
+}
+.paneel section{
+    
+    border: 2px groove red;
+    border-top: none;
+    border-left: 3px groove red;
+    
+    border-right: none;
+    border-bottom: none;
+    border
+    width: 520px;
+    height: 500px;
+    position: relative;
+    left: 100%;
+    bottom: 240px;
+   
+}
+
+.paneel section p{
+  border: 0px solid blue;
+    width: 490px;
+    height: 300px;
+    text-align: justify;
+    margin-left: 10px;
+    
+   color: red;
+}
+
+#paneel1{
+    
+    position: relative;
+    bottom: 470px;
+    
+}
+#paneel2{
+    
+    position: relative;
+    top: -470px;
+    
+}
+#paneel3{
+    
+    position: relative;
+    top: -470px;
+    
+}
+#paneel4{
+    
+    position: relative;
+    top: -470px;
+    
+}
+
+
+
+
+
+
+
