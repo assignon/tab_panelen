@@ -1,2 +1,2 @@
-#tab_panelen
+#tab panelen
 Training met jquery
